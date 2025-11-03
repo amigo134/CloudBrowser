@@ -1,0 +1,82 @@
+# Qt 项目忽略文件
+
+# Qt 用户配置文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+.qmake.cache
+.qmake.stash
+
+# Qt Creator
+*.autosave
+*.user
+*.user.*
+
+# 编译输出
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.app
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# 调试文件
+*.log
+debug/
+release/
+Debug/
+Release/
+
+# 构建目录
+build/
+build-*/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Qt 生成的文件
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+Makefile
+Makefile.*
+object_script.*
+
+# IDE 文件
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 配置文件（可能包含敏感信息）
+cosconfig.json
+
+# 日志文件
+logs/
+*.log
+
